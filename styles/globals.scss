@@ -1,0 +1,43 @@
+// Colours
+$black: #000;
+$white: #fff;
+$grey: #DAE2EC;
+$blue: #2D364E;
+$green: #2CAEBA;
+$blueWhite: #F1F5F8;
+$metalBlue: #324D67;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&family=Sofia&display=swap');
+
+$mainFont: 'Open Sans', sans-serif;
+
+$font-s: 18px;
+$font-l: 22px;
+$font-xl: 26px;
+$font-xxl: 32px;
+
+// Media queries
+
+$xl-width: 1100px;
+$lg-width: 900px;
+$md-width: 768px;
+$sm-width: 550px;
+
+// Global styles
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: $mainFont
+}
+
+
+// components
+
+
+
+//pages
