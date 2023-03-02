@@ -1,0 +1,55 @@
+.navbar{
+  background-color: $blue;
+
+&__list{
+   display: none;
+    padding: 0;
+
+     @media( min-width: $md-width ){
+       display: flex;
+       justify-content: end;
+    }
+}
+
+&__list a{
+  color: $white;
+  margin: 5px;
+  text-decoration: none;
+}
+
+li{
+    display: flex;
+    list-style: none;
+
+    @media( min-width: $md-width ){
+     display: block;
+    }
+  }
+
+  &__link a{
+    color: $white;
+    margin: 5px;
+  }
+}
+
+  .hamburger-react{
+      color: $white;
+      margin-top: 72px;
+      margin-top: -45px;
+      position: absolute;
+
+      @media(min-width: $md-width){
+        display: none;
+  }
+}
+
+.active{
+  display: block
+}
+
+.resume{
+  background-color: $green;
+  padding: 1px 4px;
+  border-radius: 5px;
+  width: 75px;
+}
