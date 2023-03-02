@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <>
-        <nav className="navbar">
+        <nav className="navbar pt-2 pb-4">
           <div className="container">
             <div className="row mt-4">
               <div className="col-12 col-md-6">

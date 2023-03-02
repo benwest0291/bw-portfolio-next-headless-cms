@@ -12,10 +12,10 @@ $metalBlue: #324D67;
 
 $mainFont: 'Open Sans', sans-serif;
 
-$font-s: 18px;
-$font-l: 22px;
-$font-xl: 26px;
-$font-xxl: 32px;
+$font-s: 16px;
+$font-l: 18px;
+$font-xl: 22px;
+$font-xxl: 26px;
 
 // Media queries
 
@@ -39,6 +39,4 @@ body{
 // components
 @import "../components/Footer/Footer.scss";
 @import "../components/Header/Navbar.scss";
-
-
-//pages
+@import "../components/Masthead/Masthead.scss";

@@ -1,8 +1,11 @@
+import Masthead from "@/components/Masthead/Masthead";
+
 export default function Home() {
   return (
     <>
-      <main>
-        <h1 className="mt-5">This is the homepage</h1>
+      <Masthead />
+      <main className="container">
+        <h1> Home page content</h1>
       </main>
     </>
   )
