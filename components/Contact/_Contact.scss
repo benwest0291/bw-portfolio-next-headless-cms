@@ -1,0 +1,40 @@
+.contact{
+
+  background-color: $blueWhite;
+
+  h2{
+    color: $blue;
+    border-bottom: solid 5px $green;
+    padding-bottom: 10px;
+    width: 33%
+  }
+
+  p{
+    @media(min-width: $md-width){
+      width: 80%;
+    }
+  }
+
+  &__phone__logo{
+    font-size: 30px;
+    color: $blue;
+  }
+
+  &__number{
+    margin-left: 10px;
+  }
+
+   &__email{
+    margin-left: 10px
+  }
+
+  &__mail__logo{
+    font-size: 30px;
+    color: $blue;
+  }
+
+  &__list{
+    list-style: none;
+    padding: 0;
+  }
+}

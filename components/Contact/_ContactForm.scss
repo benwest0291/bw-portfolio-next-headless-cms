@@ -1,0 +1,33 @@
+.contact__form{
+  background-color: $white;
+  width: 100%;
+  padding: 20px;
+  -webkit-box-shadow: -1px 8px 17px 2px rgba(218,226,236,0.8);
+  box-shadow: -1px 8px 17px 2px rgba(218,226,236,0.8);
+
+   @media(min-width: $md-width){
+      width: 90%;
+    }
+
+  &__btn{
+    background-color: $green !important;
+    color: $white !important;
+    border-style: none;
+
+  }
+  input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    border-color: $blue;
+    background-color: $blueWhite;
+  }
+
+  textarea{
+    width: 100%;
+    height: 120px;
+    border: solid 2px $blue;
+    background-color: $blueWhite;
+  }
+}

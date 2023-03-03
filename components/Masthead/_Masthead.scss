@@ -1,0 +1,18 @@
+.masthead{
+  background-color: $blue;
+  height: 100%;
+
+  h1{
+    color: $white;
+    font-size: 50px;
+  }
+
+  p{
+    color: $blueWhite;
+  }
+
+  &__socails{
+    color: $white;
+    font-size: 30px;
+  }
+}
