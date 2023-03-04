@@ -17,8 +17,9 @@
   text-decoration: none;
 }
 
-&__list a:hover{
+&__list a:hover, &__list a:focus{
   color: $green;
+  transition: .5s ease-in-out;
 }
 
 li{

@@ -13,8 +13,13 @@
     background-color: $green !important;
     color: $white !important;
     border-style: none;
-
   }
+
+ &__btn:hover, &__btn:focus{
+    background-color: $blue !important;
+    transition: .5s ease-in-out;
+  }
+
   input {
     width: 100%;
     padding: 8px;

@@ -15,4 +15,9 @@
     color: $white;
     font-size: 30px;
   }
+    &__socails:hover,&__socails:focus {
+    color: $green;
+     transition: .5s ease-in-out;
+     cursor: pointer;
+  }
 }

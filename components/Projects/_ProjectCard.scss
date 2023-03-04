@@ -25,9 +25,19 @@
     color: $blue;
   }
 
+   &__github:hover, &__github:focus{
+    color: $green !important;
+    transition: .5s ease-in-out;
+  }
+
    &__link{
     font-size: 20px;
     margin-left: 10px;
     color: $blue;
+  }
+
+  &__link:hover, &__link:focus{
+    color: $green !important;
+    transition: .5s ease-in-out;
   }
 }

@@ -26,6 +26,12 @@
   font-size: 30px;
   }
 
+  &__socail-logo:hover,&__socail-logo:focus {
+    color: $green;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+
   &__socail-spacer{
     margin-right: 30px
   }
