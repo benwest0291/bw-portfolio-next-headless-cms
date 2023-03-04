@@ -17,6 +17,10 @@
   text-decoration: none;
 }
 
+&__list a:hover{
+  color: $green;
+}
+
 li{
     display: flex;
     list-style: none;
@@ -45,11 +49,4 @@ li{
 
 .active{
   display: block
-}
-
-.resume{
-  background-color: $green;
-  padding: 1px 4px;
-  border-radius: 5px;
-  width: 75px;
 }

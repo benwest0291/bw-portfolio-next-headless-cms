@@ -27,12 +27,11 @@ const Navbar = () => {
                 <Hamburger onClick={ navBar } toggled={ isOpen } toggle={ setOpen } />
               </div>
                 <ul className={ `navbar__list  mt-4 ${ toggleMenu }`}>
-                  <li className="nabar__link" ><Link href="/">About</Link></li>
-                  <li className="nabar__link" ><Link  href="/">Experience</Link></li>
-                  <li className="nabar__link" ><Link href="/">Services</Link></li>
-                  <li className="nabar__link" ><Link href="/">Projects</Link></li>
-                  <li className="nabar__link" ><Link href="/">Contact</Link></li>
-                  <li className="nabar__link resume" ><Link href="/">Resume</Link></li>
+                  <li className="nabar__link mt-2" ><Link href="/">About</Link></li>
+                  <li className="nabar__link mt-2" ><Link href="/">Services</Link></li>
+                  <li className="nabar__link mt-2" ><Link href="/">Projects</Link></li>
+                  <li className="nabar__link mt-2" ><Link href="/">Contact</Link></li>
+                  <li className="nabar__link resume" ><Link href="/"><button className="main__btn">RESUME</button></Link></li>
                 </ul>
               </div>
             </div>
