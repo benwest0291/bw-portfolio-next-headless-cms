@@ -5,7 +5,7 @@ const ServiceCard = ({heading, paragraph}) => {
     <div className="service__card">
       <Image className="mb-3"alt="service image" src={"/code.svg" }width={50} height={50}></Image>
       <h5 className="mb-4">{ heading }</h5>
-      <p className="text-center">I{ paragraph }</p>
+      <p className="text-center">{ paragraph }</p>
     </div>
   )
 }

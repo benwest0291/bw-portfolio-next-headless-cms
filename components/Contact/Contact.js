@@ -6,7 +6,7 @@ const Contact = ({ setting }) => {
   const { getInTouch, contactNumber, email, getInTouchInfomation } = setting.fields
 
   return (
-    <section className="contact pt-5">
+    <section className="contact pt-5" id="contact">
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6">

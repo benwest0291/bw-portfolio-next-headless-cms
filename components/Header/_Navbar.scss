@@ -11,17 +11,6 @@
     }
 }
 
-&__list a{
-  color: $white;
-  margin: 5px;
-  text-decoration: none;
-}
-
-&__list a:hover, &__list a:focus{
-  color: $green;
-  transition: .5s ease-in-out;
-}
-
 li{
     display: flex;
     list-style: none;
@@ -50,4 +39,16 @@ li{
 
 .active{
   display: block
+}
+
+.link{
+  color: $white;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.link:hover, .link:focus{
+  color: $green;
+  transition: .5s ease-in-out;
+  cursor: pointer;
 }

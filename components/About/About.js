@@ -4,7 +4,7 @@ const About = ({ setting }) =>{
 
   const { aboutHeading, aboutParagraph, skills } = setting.fields
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6">
