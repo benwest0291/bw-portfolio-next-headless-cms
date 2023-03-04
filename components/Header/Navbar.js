@@ -1,4 +1,3 @@
-
 import Image from "next/image"
 import Link from "next/link"
 import Hamburger from 'hamburger-react'
@@ -31,7 +30,7 @@ const Navbar = () => {
                   <li className="nabar__link mt-2" ><Link href="/">Services</Link></li>
                   <li className="nabar__link mt-2" ><Link href="/">Projects</Link></li>
                   <li className="nabar__link mt-2" ><Link href="/">Contact</Link></li>
-                  <li className="nabar__link resume" ><Link href="/"><button className="main__btn">RESUME</button></Link></li>
+                  <li className="nabar__link resume" ><Link href="/public/files/ben-west-cv.pdf"><button className="main__btn">RESUME</button></Link></li>
                 </ul>
               </div>
             </div>

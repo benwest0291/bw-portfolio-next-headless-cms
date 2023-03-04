@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const About = ({ setting }) =>{
 
-  const { aboutHeading, aboutParagraph } = setting.fields
+  const { aboutHeading, aboutParagraph, skills } = setting.fields
   return (
     <section className="about">
       <div className="container">
@@ -17,17 +17,9 @@ const About = ({ setting }) =>{
               <h2>{ aboutHeading }</h2>
               <p className="mt-4 mb-4">{ aboutParagraph }</p>
               <ul className=" about__skills d-flex mb-5 flex-wrap">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SASS</li>
-                <li>BOOTSTRAP</li>
-                <li>JAVASCRIPT</li>
-                <li>REACT.JS</li>
-                <li>NEXT.JS</li>
-                <li>FIGMA</li>
-                <li>WORDPRESS</li>
-                <li>SHOPIFY</li>
-                <li>HEADLESS CMS</li>
+                 {skills.map(skill => (
+                   <li key={skill}>{skill}</li>
+                ))}
               </ul>
           </div>
           </div>
