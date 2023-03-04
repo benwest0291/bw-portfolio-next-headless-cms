@@ -3,11 +3,34 @@ import About from "../components/About/About"
 import Service from "../components/Services/Service"
 import Contact from "../components/Contact/Contact"
 import FeaturedProject from "@/components/Projects/FeaturedProject";
+import { createClient } from "contentful";
 
-export default function Home() {
+export async function getStaticProps() {
+
+  const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_KEY,
+  })
+
+  const res = await client.getEntries({ content_type: 'homepage' })
+
+  return {
+    props: {
+      homepage: res.items
+    }
+  }
+}
+
+export default function Home ({ homepage }) {
+  console.log(homepage)
   return (
     <>
-      <Masthead />
+      {homepage.map(setting => (
+        <Masthead
+          key={setting.sys.id}
+          setting={setting}
+        />
+      ))}
       <main>
         <About />
         <Service />
