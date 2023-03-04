@@ -32,8 +32,19 @@ export default function Home ({ homepage }) {
         />
       ))}
       <main>
-        <About />
-        <Service />
+         {homepage.map(setting => (
+           <About
+            key={setting.sys.id}
+            setting={setting}
+           />
+         ))}
+          {homepage.map(setting => (
+            <Service
+            key={setting.sys.id}
+            setting={setting}
+            />
+          ))}
+
         <FeaturedProject />
         <Contact />
       </main>

@@ -1,6 +1,8 @@
 import Image from "next/image"
 
-const About = () => {
+const About = ({ setting }) =>{
+
+  const { aboutHeading, aboutParagraph } = setting.fields
   return (
     <section className="about">
       <div className="container">
@@ -12,8 +14,8 @@ const About = () => {
           </div>
           <div className="col-12 col-md-6">
           <div className="about__content mt-5">
-            <h2>About Me</h2>
-              <p className="mt-4 mb-4">Salvia tousled chambray, shoreditch retro cliche dreamcatcher coloring book roof party keffiyeh small batch pork belly actually mlkshk shaman. Stumptown typewriter you probably haven't heard of them pork belly dreamcatcher umami woke, chambray snackwave craft beer. You probably haven't heard of them slow-carb trust fund thundercats bespoke live-edge forage echo park artisan coloring book. Semiotics af tumblr, health goth viral iPhone cold-pressed ugh kogi fanny pack. Photo booth 3 wolf moon narwhal, marfa lumbersexual taiyaki biodiesel cloud bread slow-carb enamel pin stumptown taxidermy food truck 8-bit mustache. Pickled next level vaporware, brooklyn af sriracha hoodie try-hard flannel slow-carb raw denim.</p>
+              <h2>{ aboutHeading }</h2>
+              <p className="mt-4 mb-4">{ aboutParagraph }</p>
               <ul className=" about__skills d-flex mb-5 flex-wrap">
                 <li>HTML</li>
                 <li>CSS</li>
