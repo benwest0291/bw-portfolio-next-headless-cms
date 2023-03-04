@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section className="contact pt-5">
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6">
