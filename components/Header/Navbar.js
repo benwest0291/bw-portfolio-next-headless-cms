@@ -30,7 +30,7 @@ const Navbar = () => {
                   <li className="nabar__link mt-2" ><Link className="link" to="services" spy={true} smooth={true} offset={50} duration={500}>Services</Link></li>
                   <li className="nabar__link mt-2" ><Link className="link"  to="projects" spy={true} smooth={true} offset={50} duration={500}>Projects</Link></li>
                   <li className="nabar__link mt-2" ><Link className="link" to="contact"  spy={true} smooth={true} offset={50} duration={500}>Contact</Link></li>
-                  <li className="nabar__link resume" ><Link href="/public/files/ben-west-cv.pdf"><button className="main__btn">RESUME</button></Link></li>
+                  <li className="nabar__link resume" ><button className="main__btn">RESUME</button></li>
                 </ul>
               </div>
             </div>

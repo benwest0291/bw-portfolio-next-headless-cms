@@ -9,10 +9,10 @@ import { useState } from 'react';
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_81ss9ok', 'template_bgxfchw', form.current, 'iZnUotY3oBnh-h8Xu')
+    emailjs.sendForm('service_4bb8y3v', 'template_vobm7ta', form.current, 'oPcyQ3fHzSsarge9r')
       .then((result) => {
         console.log(result.text);
-        setStatusMessage("Email sent success 😁");
+        setStatusMessage("Your message has been sent to Ben, he will aim to responed within 24 hours 😁");
       }, (error) => {
         console.log(error.text);
         setStatusMessage(`${error.text} happened 😱`);
