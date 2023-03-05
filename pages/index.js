@@ -15,12 +15,11 @@ export async function getStaticProps() {
   const res = await client.getEntries({ content_type: 'homepage' })
 
   return {
-    props: {
-      homepage: res.items,
+    props: { homepage: res.items },
       revalidate: 1
     }
   }
-}
+
 
 export default function Home ({ homepage }) {
 
