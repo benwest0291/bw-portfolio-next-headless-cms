@@ -8,9 +8,10 @@ const Navbar = () => {
 
    function navBar() {
     setOpen(isOpen => !isOpen)
-  }
+   }
 
-  let toggleMenu = isOpen ? 'active' : null
+
+let toggleMenu = isOpen ? 'active' : null
 
   return (
     <>
@@ -26,10 +27,10 @@ const Navbar = () => {
                 <Hamburger onClick={ navBar } toggled={ isOpen } toggle={ setOpen } />
               </div>
                 <ul className={ `navbar__list  mt-4 ${ toggleMenu }`}>
-                  <li className="nabar__link mt-2" ><Link className="link"  href="about">About</Link></li>
-                  <li className="nabar__link mt-2" ><Link className="link" href="services">Services</Link></li>
-                  <li className="nabar__link mt-2" ><Link className="link"  href="projects">Projects</Link></li>
-                  <li className="nabar__link mt-2" ><Link className="link" href="contact">Contact</Link></li>
+                  <li className="nabar__link mt-2" ><Link onClick={ navBar } className="link" href="#about">About</Link></li>
+                  <li className="nabar__link mt-2" ><Link onClick={ navBar } className="link" href="#services">Services</Link></li>
+                  <li className="nabar__link mt-2" ><Link onClick={ navBar } className="link"  href="#projects">Projects</Link></li>
+                  <li className="nabar__link mt-2" ><Link onClick={ navBar } className="link" href="#contact">Contact</Link></li>
                   <li className="nabar__link resume" ><button className="main__btn">RESUME</button></li>
                 </ul>
               </div>
