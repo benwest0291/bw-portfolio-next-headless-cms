@@ -10,7 +10,7 @@ const Navbar = () => {
     setOpen(isOpen => !isOpen)
   }
 
-  let toggleMenu = isOpen ? 'active' : ' '
+  let toggleMenu = isOpen ? 'active' : null
 
   return (
     <>
