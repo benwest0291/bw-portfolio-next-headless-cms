@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Hamburger from 'hamburger-react'
 import { useState } from "react"
-import { Link } from 'react-scroll';
+import Link from "next/link"
 
 const Navbar = () => {
   const [ isOpen, setOpen ] = useState(false)
@@ -26,10 +26,10 @@ const Navbar = () => {
                 <Hamburger onClick={ navBar } toggled={ isOpen } toggle={ setOpen } />
               </div>
                 <ul className={ `navbar__list  mt-4 ${ toggleMenu }`}>
-                  <li className="nabar__link mt-2" ><Link className="link"  to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link></li>
-                  <li className="nabar__link mt-2" ><Link className="link" to="services" spy={true} smooth={true} offset={50} duration={500}>Services</Link></li>
-                  <li className="nabar__link mt-2" ><Link className="link"  to="projects" spy={true} smooth={true} offset={50} duration={500}>Projects</Link></li>
-                  <li className="nabar__link mt-2" ><Link className="link" to="contact"  spy={true} smooth={true} offset={50} duration={500}>Contact</Link></li>
+                  <li className="nabar__link mt-2" ><Link className="link"  href="about">About</Link></li>
+                  <li className="nabar__link mt-2" ><Link className="link" href="services">Services</Link></li>
+                  <li className="nabar__link mt-2" ><Link className="link"  href="projects">Projects</Link></li>
+                  <li className="nabar__link mt-2" ><Link className="link" href="contact">Contact</Link></li>
                   <li className="nabar__link resume" ><button className="main__btn">RESUME</button></li>
                 </ul>
               </div>
