@@ -6,15 +6,15 @@ import Link from "next/link"
 const Navbar = () => {
   const [ isOpen, setOpen ] = useState(false)
 
+
    function navBar() {
     setOpen(isOpen => !isOpen)
    }
 
-
 let toggleMenu = isOpen ? 'active' : null
 
   return (
-    <>
+     <>
         <nav className="navbar pt-2 pb-4">
           <div className="container">
             <div className="row mt-4">
@@ -26,12 +26,12 @@ let toggleMenu = isOpen ? 'active' : null
               <div className="d-flex justify-content-end ">
                 <Hamburger onClick={ navBar } toggled={ isOpen } toggle={ setOpen } />
               </div>
-                <ul className={ `navbar__list  mt-4 ${ toggleMenu }`}>
-                  <li className="nabar__link mt-2" ><Link onClick={ navBar } className="link" href="#about">About</Link></li>
-                  <li className="nabar__link mt-2" ><Link onClick={ navBar } className="link" href="#services">Services</Link></li>
-                  <li className="nabar__link mt-2" ><Link onClick={ navBar } className="link"  href="#projects">Projects</Link></li>
-                  <li className="nabar__link mt-2" ><Link onClick={ navBar } className="link" href="#contact">Contact</Link></li>
-                  <li className="nabar__link resume" ><button className="main__btn">RESUME</button></li>
+                <ul className={ `navbar__list  mt-4 ${ toggleMenu}`}>
+                  <li onClick={ navBar } className="nabar__link mt-2" ><Link className="link" href="#about">About</Link></li>
+                  <li onClick={ navBar } className="nabar__link mt-2" ><Link className="link" href="#services">Services</Link></li>
+                  <li onClick={ navBar } className="nabar__link mt-2" ><Link className="link"  href="#projects">Projects</Link></li>
+                  <li onClick={ navBar } className="nabar__link mt-2" ><Link className="link" href="#contact">Contact</Link></li>
+                  <li onClick={ navBar } className="nabar__link resume" ><Link href="/files/bens-cv-2022.pdf"><button className="main__btn">RESUME</button></Link></li>
                 </ul>
               </div>
             </div>

@@ -38,7 +38,10 @@ li{
 }
 
 .active{
-  display: block
+  display: block;
+    @media(min-width: $md-width){
+       display: flex;
+  }
 }
 
 .link{

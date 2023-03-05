@@ -15,14 +15,14 @@ const Masthead = ({ setting }) => {
               <h1>{ name }</h1>
               <p>{ thirdLine }</p>
               <p className="w-75">{ mastheadParagraph  }</p>
-                <button className="main__btn mt-3 mb-3">CONTACT ME</button>
-                <div className="">
+                <Link href="#contact" ><button className="main__btn mt-3 mb-3">CONTACT ME</button></Link>
+                <div className="mb-1">
                 <Link href={ github } target="_blank">
                   <FaGithub
                       className="m-2 masthead__socails"
                   />
                 </Link>
-                <Link href={ linkedin} target="_blank">
+                <Link href={ linkedin } target="_blank">
                     <FaLinkedin
                       className="m-2 masthead__socails"
                     />
