@@ -22,10 +22,12 @@
 
   &__number{
     margin-left: 10px;
+    color: $blue !important
   }
 
    &__email{
-    margin-left: 10px
+    margin-left: 10px;
+    color: $blue !important
   }
 
   &__mail__logo{
