@@ -45,18 +45,18 @@ export default function Home ({ homepage }) {
             setting={setting}
             />
         ))}
-         {homepage.map(setting => (
+        {homepage.map(setting => (
            <FeaturedProject
            key={setting.sys.id}
            setting={setting}
            />
-          ))}
-          {homepage.map(setting => (
+        ))}
+        {homepage.map(setting => (
             <Contact
             key={setting.sys.id}
             setting={setting}
             />
-          ))}
+        ))}
       </main>
     </>
   )
