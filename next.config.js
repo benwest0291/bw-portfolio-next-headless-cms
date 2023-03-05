@@ -1,19 +1,25 @@
 /** @type {import('next').NextConfig} */
-const path = require('path');
-const nextConfig = {
-  // disable css-modules component styling
-  webpack(config) {
-    config.module.rules.forEach((rule) => {
-      const { oneOf } = rule;
-      if (oneOf) {
-        oneOf.forEach((one) => {
-          if (!`${one.issuer?.and}`.includes('_app')) return;
-          one.issuer.and = [path.resolve(__dirname)];
-        });
-      }
-    })
-    return config;
+// const nextConfig = {
+//   reactStrictMode: true,
+// }
+
+module.exports = {
+  images: {
+    domains: ['images.ctfassets.net'],
   },
 }
 
-module.exports = nextConfig
+const path = require('node:path');
+
+const nextConfig = {
+  webpack(config) {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@styles': path.resolve(__dirname, 'src/styles'),
+    };
+
+    return config;
+  },
+};
+
+module.exports = nextConfig;

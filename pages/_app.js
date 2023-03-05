@@ -1,4 +1,4 @@
-import '../styles/Globals.scss'
+import '../scss/Globals.scss'
 import 'bootstrap/dist/css/bootstrap.css'
 import Layout from '../components/Layout'
 

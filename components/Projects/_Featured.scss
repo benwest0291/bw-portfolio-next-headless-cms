@@ -12,7 +12,7 @@
   &__space{
       @media( min-width: $md-width ){
        display: flex;
-       justify-content: end;
+       justify-content: flex-end;
     }
   }
 
