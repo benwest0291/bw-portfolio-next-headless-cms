@@ -13,8 +13,9 @@ const About = ({ setting }) =>{
               </div>
           </div>
           <div className="col-12 col-md-6">
-          <div className="about__content mt-5">
-              <h2>{ aboutHeading }</h2>
+          <div className="about__content mt-4">
+              <h2>{aboutHeading}</h2>
+              <div className="about__line mb-4"></div>
               <p className="mt-4 mb-4">{ aboutParagraph }</p>
               <ul className=" about__skills d-flex mb-5 flex-wrap">
                  {skills.map(skill => (

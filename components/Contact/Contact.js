@@ -10,7 +10,8 @@ const Contact = ({ setting }) => {
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6">
-            <h2 className="mb-5">{ getInTouch }</h2>
+            <h2 className="mb-4">{getInTouch}</h2>
+            <div className="contact__line mb-5"></div>
             <ul className="contact__list">
               <li className="mb-3"><FaPhoneAlt className="contact__phone__logo" /><span className="contact__number">{ contactNumber }</span></li>
               <li><FaEnvelope className="contact__mail__logo" /><span className="contact__email">{ email }</span></li>

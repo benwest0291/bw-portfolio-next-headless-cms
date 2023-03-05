@@ -1,12 +1,14 @@
 .contact{
-
   background-color: $blueWhite;
+
+    &__line{
+      border-top: solid $green 5px;
+      width: 100px;
+      margin-top: -10px;
+    }
 
   h2{
     color: $blue;
-    border-bottom: solid 5px $green;
-    padding-bottom: 10px;
-    width: 33%
   }
 
   p{

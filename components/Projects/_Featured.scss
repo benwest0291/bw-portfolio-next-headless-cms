@@ -1,5 +1,11 @@
 .project{
 
+    &__line{
+     border-top: solid $green 5px;
+     width: 100px;
+    margin-top: -10px;
+    }
+
   &__image{
     width: 100% !important;
     object-fit: cover;
@@ -18,8 +24,6 @@
 
   h2{
     color: $blue;
-    border-bottom: solid 5px $green;
     padding-bottom: 10px;
-    width: 10%
   }
 }

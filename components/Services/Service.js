@@ -6,7 +6,8 @@ const Service = ({ setting }) => {
   return (
     <section className="services pb-5" id="services">
       <div className="container">
-        <h2 className="mb-4 pt-4">{ servicesHeading }</h2>
+        <h2 className="pt-4 mb-4">{servicesHeading}</h2>
+        <div className="services__line mb-5"></div>
         <div className="row">
         <div className="col-12 col-md-4 mb-5">
             <ServiceCard

@@ -3,6 +3,7 @@ import Hamburger from 'hamburger-react'
 import { useState } from "react"
 import Link from "next/link"
 
+
 const Navbar = () => {
   const [ isOpen, setOpen ] = useState(false)
 
@@ -31,7 +32,7 @@ let toggleMenu = isOpen ? 'active' : null
                   <li onClick={ navBar } className="nabar__link mt-2" ><Link className="link" href="#services">Services</Link></li>
                   <li onClick={ navBar } className="nabar__link mt-2" ><Link className="link"  href="#projects">Projects</Link></li>
                   <li onClick={ navBar } className="nabar__link mt-2" ><Link className="link" href="#contact">Contact</Link></li>
-                  <li onClick={ navBar } className="nabar__link resume" ><Link href="/files/bens-cv-2022.pdf"><button className="main__btn">RESUME</button></Link></li>
+                  <li onClick={ navBar } className="nabar__link resume" ><Link href="/files/bens-cv-2022.pdf" target="_blank"><button className="main__btn">RESUME</button></Link></li>
                 </ul>
               </div>
             </div>
