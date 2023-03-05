@@ -6,7 +6,7 @@ const Masthead = ({ setting }) => {
 
   const { firstLine, name, thirdLine, mastheadParagraph, github, linkedin } = setting.fields
   return (
-    <section className="masthead">
+    <section className="masthead pb-3">
       <div className="container">
          <div className="row">
           <div className="col-12 col-md-6">

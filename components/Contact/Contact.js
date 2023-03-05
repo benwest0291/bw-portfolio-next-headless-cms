@@ -18,8 +18,10 @@ const Contact = ({ setting }) => {
             </ul>
             <p className="pb-5">{ getInTouchInfomation }</p>
           </div>
-           <div className="col-12 col-md-6 pb-5">
-            <ContactForm />
+          <div className="col-12 col-md-6 pb-5">
+            <div className="d-flex justify-content-center">
+              <ContactForm />
+             </div>
           </div>
         </div>
       </div>
