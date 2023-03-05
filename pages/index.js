@@ -23,7 +23,7 @@ export async function getStaticProps() {
 }
 
 export default function Home ({ homepage }) {
-      console.log(homepage )
+
   return (
     <>
       {homepage.map(setting => (
