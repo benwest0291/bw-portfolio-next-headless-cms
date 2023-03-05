@@ -1,4 +1,5 @@
 .navbar{
+
   background-color: $blue;
 
 &__list{
@@ -32,16 +33,17 @@ li{
       margin-top: -45px;
       position: absolute;
 
-      @media(min-width: $md-width){
+    @media(min-width: $md-width){
         display: none;
-  }
+   }
 }
 
 .active{
   display: block;
-    @media(min-width: $md-width){
+
+  @media(min-width: $md-width){
        display: flex;
-  }
+   }
 }
 
 .link{
@@ -58,7 +60,8 @@ li{
 
 .resume{
   margin-top: 10px;
-      @media(min-width: $md-width){
-          margin-top: 0;
+
+  @media(min-width: $md-width){
+    margin-top: 0;
   }
 }

@@ -10,7 +10,6 @@ $lightBlue: #617D98;
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&family=Sofia&display=swap');
-
 $mainFont: 'Open Sans', sans-serif;
 
 $font-s: 16px;
@@ -19,14 +18,12 @@ $font-xl: 22px;
 $font-xxl: 26px;
 
 // Media queries
-
 $xl-width: 1100px;
 $lg-width: 900px;
 $md-width: 768px;
 $sm-width: 550px;
 
 // Global styles
-
 * {
   box-sizing: border-box;
 }
@@ -39,8 +36,7 @@ body{
   width: 100vw;
 }
 
-//buttons
-
+//Buttons
 .main__btn{
   color: $white;
   background-color: $blue;
@@ -50,14 +46,13 @@ body{
   letter-spacing: 2px;
 }
 
-
 .main__btn:hover, .main__btn:focus{
    background-color: $green;
    color: $blue;
    transition: .5s ease-in-out;
 }
 
-// components/ blocks
+// Components/ Blocks
 @import "../components/Footer/Footer.scss";
 @import "../components/Header/Navbar.scss";
 @import "../components/Masthead/Masthead.scss";
@@ -69,5 +64,5 @@ body{
 @import "../components/Projects/Featured";
 @import "../components/Projects/ProjectCard";
 
-// pages
+// Pages
 @import "../pages/notFound";
