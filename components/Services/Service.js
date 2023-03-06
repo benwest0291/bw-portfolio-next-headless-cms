@@ -4,7 +4,7 @@ const Service = ({ setting }) => {
   const { servicesHeading, servicesTitle1, servicesParagraph1, servicesTitle2, servicesParagraph2, servicesTitle3, servicesParagraph3 } = setting.fields
 
   return (
-    <section className="services pb-5" id="services">
+    <section className="services pb-5" id="freelance">
         <div className="container">
            <h2 className="pt-4 mb-4">{servicesHeading}</h2>
              <div className="services__line mb-5"></div>
