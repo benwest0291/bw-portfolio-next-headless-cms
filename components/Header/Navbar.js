@@ -32,7 +32,7 @@ let toggleMenu = isOpen ? 'active' : null
                   <li onClick={ navBar } className="nabar__link mt-2" ><Link className="link" href="#freelance">Freelance</Link></li>
                   <li onClick={ navBar } className="nabar__link mt-2" ><Link className="link"  href="#projects">Projects</Link></li>
                   <li onClick={ navBar } className="nabar__link mt-2" ><Link className="link" href="#contact">Contact</Link></li>
-                  <li onClick={ navBar } className="nabar__link resume" ><Link href="/files/bens-cv-2022.pdf" target="_blank"><button className="main__btn">RESUME</button></Link></li>
+                  <li onClick={ navBar } className="nabar__link resume" ><Link href="/files/ben-west-cv-2023.pdf" target="_blank"><button className="main__btn">RESUME</button></Link></li>
                 </ul>
               </div>
             </div>
