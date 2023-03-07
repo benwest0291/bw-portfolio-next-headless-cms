@@ -9,7 +9,7 @@ const About = ({ setting }) =>{
           <div className="row">
              <div className="col-12 col-md-6">
                 <div className="d-flex justify-content-center">
-                 <Image src="/main-image.svg" alt="banner image" width={400} height={400} className="about__image mt-5"/>
+                 <Image src="/about.svg" alt="banner image" width={400} height={400} className="about__image mt-5"/>
                 </div>
               </div>
               <div className="col-12 col-md-6">
