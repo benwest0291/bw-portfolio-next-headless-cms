@@ -16,11 +16,11 @@ export async function getStaticProps() {
 
   return {
     props: { homepage: res.items },
-     revalidate: 10
-    }
+    revalidate: 10
   }
+}
 
-export default function Home ({ homepage }) {
+export default function Home({ homepage }) {
 
   return (
     <>
@@ -31,29 +31,29 @@ export default function Home ({ homepage }) {
         />
       ))}
       <main>
-         {homepage.map(setting => (
-           <About
-            key={setting.sys.id}
-            setting={setting}
-           />
-         ))}
         {homepage.map(setting => (
-            <Service
+          <About
             key={setting.sys.id}
             setting={setting}
-            />
+          />
         ))}
         {homepage.map(setting => (
-           <FeaturedProject
-           key={setting.sys.id}
-           setting={setting}
-           />
-        ))}
-        {homepage.map(setting => (
-            <Contact
+          <Service
             key={setting.sys.id}
             setting={setting}
-            />
+          />
+        ))}
+        {homepage.map(setting => (
+          <FeaturedProject
+            key={setting.sys.id}
+            setting={setting}
+          />
+        ))}
+        {homepage.map(setting => (
+          <Contact
+            key={setting.sys.id}
+            setting={setting}
+          />
         ))}
       </main>
     </>

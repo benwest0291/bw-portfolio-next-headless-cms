@@ -1,14 +1,14 @@
-  .services{
+  .services {
     height: 100%;
     background-color: $blueWhite;
 
-      &__line{
+    &__line {
       border-top: solid $green 5px;
       width: 100px;
       margin-top: -10px;
     }
 
-    h2{
+    h2 {
       color: $blue;
     }
   }

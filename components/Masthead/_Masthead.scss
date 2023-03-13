@@ -1,31 +1,32 @@
-.masthead{
+.masthead {
 
   background-color: $blue;
   height: 100%;
 
-  &__image{
-    @media(min-width: $md-width){
-        width: 400px;
-        height: 400px;
-      }
+  &__image {
+    @media(min-width: $md-width) {
+      width: 400px;
+      height: 400px;
+    }
   }
 
-  h1{
+  h1 {
     color: $white;
     font-size: 50px;
     margin-bottom: 22px;
   }
 
-  p{
+  p {
     color: $blueWhite;
   }
 
-  &__socails{
+  &__socails {
     color: $white;
     font-size: 30px;
   }
 
-  &__socails:hover,&__socails:focus {
+  &__socails:hover,
+  &__socails:focus {
     color: $green;
     transition: .5s ease-in-out;
     cursor: pointer;

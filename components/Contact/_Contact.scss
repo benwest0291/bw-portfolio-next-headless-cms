@@ -1,43 +1,43 @@
-.contact{
+.contact {
   background-color: $blueWhite;
 
-    &__line{
-      border-top: solid $green 5px;
-      width: 100px;
-      margin-top: -10px;
-    }
+  &__line {
+    border-top: solid $green 5px;
+    width: 100px;
+    margin-top: -10px;
+  }
 
-  h2{
+  h2 {
     color: $blue;
   }
 
-  p{
-    @media(min-width: $md-width){
+  p {
+    @media(min-width: $md-width) {
       width: 80%;
     }
   }
 
-  &__phone__logo{
+  &__phone__logo {
     font-size: 30px;
     color: $blue;
   }
 
-  &__number{
+  &__number {
     margin-left: 10px;
     color: $blue !important
   }
 
-  &__email{
+  &__email {
     margin-left: 10px;
     color: $blue !important
   }
 
-  &__mail__logo{
+  &__mail__logo {
     font-size: 30px;
     color: $blue;
   }
 
-  &__list{
+  &__list {
     list-style: none;
     padding: 0;
   }

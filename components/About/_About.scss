@@ -1,40 +1,40 @@
-  .about{
+  .about {
 
-    &__image{
+    &__image {
       display: none;
 
-      @media(min-width: $md-width){
+      @media(min-width: $md-width) {
         display: block;
       }
     }
 
-    &__line{
+    &__line {
       border-top: solid $green 5px;
       width: 100px;
       margin-top: -10px;
     }
 
-    h2{
+    h2 {
       padding-bottom: 10px;
       color: $blue;
     }
 
-    p{
+    p {
       color: $blue;
     }
 
-    &__skills{
-    list-style: none;
-    padding-left: 0;
+    &__skills {
+      list-style: none;
+      padding-left: 0;
     }
 
-    &__skills li{
-    background-color: $grey;
-    margin: 2px;
-    padding: 3px 6px;
-    border-radius: 5px;
-    color: $lightBlue;
-    font-weight: 500;
-    font-size: 12px;
+    &__skills li {
+      background-color: $grey;
+      margin: 2px;
+      padding: 3px 6px;
+      border-radius: 5px;
+      color: $lightBlue;
+      font-weight: 500;
+      font-size: 12px;
     }
   }

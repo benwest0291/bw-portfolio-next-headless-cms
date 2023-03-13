@@ -1,39 +1,41 @@
-.footer{
+.footer {
   background-color: $blue;
   color: $white;
   padding: 30px 0;
 
-  &__text{
+  &__text {
     letter-spacing: 1px;
     font-size: $font-s;
     text-align: center;
-    @media( min-width: $md-width ){
-           text-align: left;
+
+    @media(min-width: $md-width ) {
+      text-align: left;
     }
   }
 
-  &__socials{
+  &__socials {
     display: flex;
     justify-content: center;
 
-    @media( min-width: $md-width ){
-       display: flex;
-       justify-content: flex-end;
+    @media(min-width: $md-width ) {
+      display: flex;
+      justify-content: flex-end;
     }
   }
 
-  &__socail-logo{
-  font-size: 30px;
-  color: $white;
+  &__socail-logo {
+    font-size: 30px;
+    color: $white;
   }
 
-  &__socail-logo:hover,&__socail-logo:focus {
+  &__socail-logo:hover,
+  &__socail-logo:focus {
     color: $green;
     transition: .5s ease-in-out;
     cursor: pointer;
   }
 
-  &__socail-spacer{
+  &__socail-spacer {
     margin-right: 30px
   }
 }

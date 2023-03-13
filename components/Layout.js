@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Footer from './Footer/Footer'
 import Navbar from './Header/Navbar'
 
-const Layout = ( {children} ) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Head>
@@ -13,7 +13,7 @@ const Layout = ( {children} ) => {
         <link rel="icon" type="image/x-icon" href="/favicon.png"></link>
       </Head>
       <Navbar />
-        { children }
+      {children}
       <Footer />
     </>
   )

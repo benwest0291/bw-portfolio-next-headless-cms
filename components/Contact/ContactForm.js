@@ -2,9 +2,9 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 
- const ContactForm = () => {
-   const form = useRef();
-   const [statusMessage, setStatusMessage] = useState("");
+const ContactForm = () => {
+  const form = useRef();
+  const [statusMessage, setStatusMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -23,9 +23,9 @@ import { useState } from 'react';
   return (
     <form ref={form} onSubmit={sendEmail} className="contact__form mb-4">
       <input className="form-control" type="text" name="user_name" placeholder='NAME' />
-      <input className="form-control"  type="number" name="user_number" placeholder='CONTACT NUMBER'  />
-      <input  className="form-control" type="email" name="user_email" placeholder='EMAIL'  />
-      <textarea className="form-control"  name="message" placeholder='MESSAGE'  />
+      <input className="form-control" type="number" name="user_number" placeholder='CONTACT NUMBER' />
+      <input className="form-control" type="email" name="user_email" placeholder='EMAIL' />
+      <textarea className="form-control" name="message" placeholder='MESSAGE' />
       <input className="contact__form__btn mt-3" type="submit" value="Send" />
       <p className="mt-2">{statusMessage}</p>
     </form>

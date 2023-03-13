@@ -1,28 +1,28 @@
-.project{
+.project {
 
-    &__line{
-     border-top: solid $green 5px;
-     width: 100px;
+  &__line {
+    border-top: solid $green 5px;
+    width: 100px;
     margin-top: -10px;
-    }
+  }
 
-  &__image{
+  &__image {
     width: 100% !important;
     object-fit: cover;
 
-     @media( min-width: $md-width ){
-       width: 60% !important;
+    @media(min-width: $md-width ) {
+      width: 60% !important;
     }
   }
 
-  &__space{
-      @media( min-width: $md-width ){
-       display: flex;
-       justify-content: flex-end;
+  &__space {
+    @media(min-width: $md-width ) {
+      display: flex;
+      justify-content: flex-end;
     }
   }
 
-  h2{
+  h2 {
     color: $blue;
     padding-bottom: 10px;
   }
