@@ -28,7 +28,7 @@ $sm-width: 550px;
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   font-family: $mainFont;
   background-color: $blueWhite;
@@ -37,7 +37,7 @@ body{
 }
 
 //Buttons
-.main__btn{
+.main__btn {
   color: $white;
   background-color: $blue;
   border: solid 1px $green;
@@ -46,10 +46,11 @@ body{
   letter-spacing: 2px;
 }
 
-.main__btn:hover, .main__btn:focus{
-   background-color: $green;
-   color: $blue;
-   transition: .5s ease-in-out;
+.main__btn:hover,
+.main__btn:focus {
+  background-color: $green;
+  color: $blue;
+  transition: .5s ease-in-out;
 }
 
 // Components/ Blocks
