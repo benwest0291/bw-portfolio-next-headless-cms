@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className="d-flex justify-content-end ">
               <Hamburger onClick={navBar} toggled={isOpen} toggle={setOpen} />
             </div>
-            <ul className={`navbar__list  mt-4 ${toggleMenu}`}>
+            <ul className={`navbar__list ${toggleMenu}`}>
               <li onClick={navBar} className="nabar__link mt-2" ><Link className="link" href="#about">About</Link></li>
               <li onClick={navBar} className="nabar__link mt-2" ><Link className="link" href="#freelance">Freelance</Link></li>
               <li onClick={navBar} className="nabar__link mt-2" ><Link className="link" href="#projects">Projects</Link></li>
