@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="container">
           <div className="row mt-4">
             <div className="col-12 col-md-6">
-              <Link className="mb-3" href="/"><Image alt="logo" src="/logo.png" width={200} height={30} /></Link>
+              <Link className="mb-3" href="/"><Image className="navbar__logo" alt="logo" src="/logo.png" width={200} height={30} /></Link>
             </div>
           </div>
           <div className="col-12 col-md-6">
