@@ -23,6 +23,7 @@
   &__github {
     font-size: 23px;
     color: $blue;
+    transition: .5s ease-in-out;
   }
 
   &__github:hover,
@@ -36,6 +37,7 @@
     margin-left: 10px;
     color: $blue;
     margin-top: -1.5px;
+    transition: .5s ease-in-out;
   }
 
   &__link:hover,

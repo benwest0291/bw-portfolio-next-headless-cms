@@ -10,14 +10,15 @@
   }
 
   &__btn {
-    background-color: $green !important;
+    background-color: $blue !important;
     color: $white !important;
     border-style: none;
+    transition: .5s ease-in-out;
   }
 
   &__btn:hover,
   &__btn:focus {
-    background-color: $blue !important;
+    background-color: $green !important;
     transition: .5s ease-in-out;
   }
 

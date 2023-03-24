@@ -1,7 +1,15 @@
 import ServiceCard from "./ServiceCard"
 const Service = ({ setting }) => {
 
-  const { servicesHeading, servicesTitle1, servicesParagraph1, servicesTitle2, servicesParagraph2, servicesTitle3, servicesParagraph3 } = setting.fields
+  const { servicesHeading,
+    servicesTitle1,
+    servicesParagraph1,
+    servicesTitle2,
+    servicesParagraph2,
+    servicesTitle3,
+    servicesParagraph3,
+    servicesTitle4,
+  } = setting.fields
 
   return (
     <section className="services pb-5" id="freelance">
