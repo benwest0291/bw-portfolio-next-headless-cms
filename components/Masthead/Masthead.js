@@ -9,7 +9,7 @@ const Masthead = ({ setting }) => {
     <section className="masthead pb-5">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-6" data-aos="fade-right">
+          <div className="col-12 col-md-6">
             <div className="mt-5">
               <p>{firstLine}</p>
               <h1>{name}</h1>
@@ -30,7 +30,7 @@ const Masthead = ({ setting }) => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6" data-aos="fade-left">
+          <div className="col-12 col-md-6">
             <div className="d-flex justify-content-center">
               <Image className="masthead__image" src="/main-image.svg" alt="banner image" width={330} height={330} />
             </div>

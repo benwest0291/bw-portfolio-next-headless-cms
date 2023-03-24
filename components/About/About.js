@@ -7,12 +7,12 @@ const About = ({ setting }) => {
     <section className="about" id="about">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-6" data-aos="fade-right">
+          <div className="col-12 col-md-6">
             <div className="d-flex justify-content-center">
               <Image src="/about.svg" alt="banner image" width={385} height={385} className="about__image mt-5" />
             </div>
           </div>
-          <div className="col-12 col-md-6" data-aos="fade-left">
+          <div className="col-12 col-md-6">
             <div className="about__content mt-4">
               <h2>{aboutHeading}</h2>
               <div className="about__line mb-4"></div>

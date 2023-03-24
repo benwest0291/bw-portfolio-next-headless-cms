@@ -9,7 +9,7 @@ const Contact = ({ setting }) => {
     <section className="contact pt-5" id="contact">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-6" data-aos="fade-right">
+          <div className="col-12 col-md-6">
             <h2 className="mb-4">{getInTouch}</h2>
             <div className="contact__line mb-5"></div>
             <ul className="contact__list">
@@ -18,7 +18,7 @@ const Contact = ({ setting }) => {
             </ul>
             <p className="pb-5">{getInTouchInfomation}</p>
           </div>
-          <div className="col-12 col-md-6 pb-5" data-aos="fade-left">
+          <div className="col-12 col-md-6 pb-5">
             <div className="d-flex justify-content-center">
               <ContactForm />
             </div>
