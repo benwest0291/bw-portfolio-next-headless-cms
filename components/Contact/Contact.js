@@ -18,7 +18,7 @@ const Contact = ({ setting }) => {
             </ul>
             <p className="pb-5">{getInTouchInfomation}</p>
           </div>
-          <div className="col-12 col-md-6 pb-5">
+          <div className="col-12 col-md-6 pb-5" data-aos="fade-left">
             <div className="d-flex justify-content-center">
               <ContactForm />
             </div>
