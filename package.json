@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "contentful": "^9.3.3",
     "hamburger-react": "^2.5.0",

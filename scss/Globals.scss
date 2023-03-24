@@ -44,6 +44,8 @@ body {
   border-radius: 5px;
   padding: 5px 10px;
   letter-spacing: 2px;
+  transition: .5s ease-in-out;
+  transform: translateY(3px);
 }
 
 .main__btn:hover,
@@ -51,6 +53,7 @@ body {
   background-color: $green;
   color: $blue;
   transition: .5s ease-in-out;
+  transform: translateY(-3px);
 }
 
 // Components/ Blocks

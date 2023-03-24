@@ -11,6 +11,8 @@
   height: 400px;
   -webkit-box-shadow: -1px 8px 17px 2px rgba(218, 226, 236, 0.8);
   box-shadow: -1px 8px 17px 2px rgba(218, 226, 236, 0.8);
+  transition: .5s ease-in-out;
+  transform: translateY(3px);
 
   @media(min-width: $md-width) {
     height: 100%;
@@ -20,9 +22,29 @@
     border-bottom: solid 2px $green;
     padding-bottom: 10px;
     color: $blue;
+    transition: .5s ease-in-out;
   }
 
   p {
     color: $blue;
+    transition: .5s ease-in-out;
+  }
+}
+
+.service__card:hover,
+.service__card:focus {
+  background-color: $green;
+  transition: .5s ease-in-out;
+  transform: translateY(-5px);
+
+  h5 {
+    border-bottom: solid 2px $white;
+    transition: .5s ease-in-out;
+    color: $white;
+  }
+
+  p {
+    color: $white;
+    transition: .5s ease-in-out;
   }
 }
