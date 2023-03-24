@@ -8,7 +8,8 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RKW5WFM8M1" />
+      <Script strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-DHN2E0YZ2V" />
       <Script
         id='google-analytics'
         strategy="afterInteractive"
@@ -17,7 +18,7 @@ function MyApp({ Component, pageProps }) {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-RKW5WFM8M1', {
+          gtag('config', 'G-DHN2E0YZ2V', {
             page_path: window.location.pathname,
           });
         `,
