@@ -45,15 +45,13 @@ body {
   padding: 5px 10px;
   letter-spacing: 2px;
   transition: .5s ease-in-out;
-  transform: translateY(3px);
 }
 
 .main__btn:hover,
 .main__btn:focus {
   background-color: $green;
   color: $blue;
-  transition: .5s ease-in-out;
-  transform: translateY(-3px);
+  transform: translateY(-5px);
 }
 
 // Components/ Blocks

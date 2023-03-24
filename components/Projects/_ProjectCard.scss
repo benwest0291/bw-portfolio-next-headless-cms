@@ -29,7 +29,6 @@
   &__github:hover,
   &__github:focus {
     color: $green !important;
-    transition: .5s ease-in-out;
   }
 
   &__link {
@@ -43,6 +42,5 @@
   &__link:hover,
   &__link:focus {
     color: $green !important;
-    transition: .5s ease-in-out;
   }
 }
