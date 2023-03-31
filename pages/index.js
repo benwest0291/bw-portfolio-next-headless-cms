@@ -25,37 +25,29 @@ export default function Home({ homepage }) {
   return (
     <>
       {homepage.map(setting => (
-        <Masthead
-          key={setting.sys.id}
-          setting={setting}
-        />
+        <div key={setting.sys.id}>
+          <Masthead
+            setting={setting}
+          />
+          <main>
+            <About
+              setting={setting}
+            />
+
+            <Service
+              setting={setting}
+            />
+
+            <FeaturedProject
+              setting={setting}
+            />
+
+            <Contact
+              setting={setting}
+            />
+          </main>
+        </div>
       ))}
-      <main>
-        {homepage.map(setting => (
-          <About
-            key={setting.sys.id}
-            setting={setting}
-          />
-        ))}
-        {homepage.map(setting => (
-          <Service
-            key={setting.sys.id}
-            setting={setting}
-          />
-        ))}
-        {homepage.map(setting => (
-          <FeaturedProject
-            key={setting.sys.id}
-            setting={setting}
-          />
-        ))}
-        {homepage.map(setting => (
-          <Contact
-            key={setting.sys.id}
-            setting={setting}
-          />
-        ))}
-      </main>
     </>
   )
 }
