@@ -29,8 +29,8 @@ const Navbar = () => {
             </div>
             <ul className={`navbar__list ${toggleMenu}`}>
               <li onClick={navBar} className="nabar__link mt-2" ><Link className="link" href="#about">About</Link></li>
-              <li onClick={navBar} className="nabar__link mt-2" ><Link className="link" href="#freelance">Freelance</Link></li>
-              <li onClick={navBar} className="nabar__link mt-2" ><Link className="link" href="#projects">Projects</Link></li>
+              {/*<li onClick={navBar} className="nabar__link mt-2" ><Link className="link" href="#freelance">Freelance</Link></li>*/}
+              {/*<li onClick={navBar} className="nabar__link mt-2" ><Link className="link" href="#projects">Projects</Link></li>*/}
               <li onClick={navBar} className="nabar__link resume mt-2" ><Link className="main__btn text-decoration-none" href="#contact">Contact</Link></li>
               {/* <li onClick={navBar} className="nabar__link resume" ><Link href="/files/ben-west-cv-2023.pdf" target="_blank"><button className="main__btn">RESUME</button></Link></li> */}
             </ul>
