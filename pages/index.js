@@ -34,13 +34,13 @@ export default function Home({ homepage }) {
               setting={setting}
             />
 
-            <Service
-              setting={setting}
-            />
+            {/*<Service*/}
+            {/*  setting={setting}*/}
+            {/*/>*/}
 
-            <FeaturedProject
-              setting={setting}
-            />
+            {/*<FeaturedProject*/}
+            {/*  setting={setting}*/}
+            {/*/>*/}
 
             <Contact
               setting={setting}
